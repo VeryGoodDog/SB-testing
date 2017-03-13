@@ -63,17 +63,17 @@
   "warpInDelay" : 1.0,
 
   "levelApproachFactor" : 0.01,
-  "angleApproachFactor" : 0.025,
+  "angleApproachFactor" : 0.05,
   "maxGroundSearchDistance" : 10,
-  "maxAngle" : 60,
-  "hoverTargetDistance" : 3,
-  "hoverVelocityFactor" : 8,
-  "hoverControlForce" : 650,
-  "targetHorizontalVelocity" : 80,
-  "horizontalControlForce" : 120,
+  "maxAngle" : 67.5,
+  "hoverTargetDistance" : 5,
+  "hoverVelocityFactor" : 10,
+  "hoverControlForce" : 1000,
+  "targetHorizontalVelocity" : 50,
+  "horizontalControlForce" : 65,
 
-  "nearGroundDistance" : 4,
-  "jumpVelocity" : 40,
+  "nearGroundDistance" : 5,
+  "jumpVelocity" : 50,
   "jumpTimeout" : 0.25,
 
   //Health and damage
@@ -145,7 +145,7 @@
       [3.0, 0.0],
       [4.0, 0.0],
       [5.0, 0.0],
-      [6.0, 0.0]
+      [7.0, 0.0]
   ],
 
   "bodySpringPositions" : [
